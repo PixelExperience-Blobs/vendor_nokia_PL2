@@ -6,6 +6,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/nokia/PL2
 
 PRODUCT_COPY_FILES += \
+    vendor/nokia/PL2/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
+    vendor/nokia/PL2/proprietary/vendor/bin/cnss_diag:$(TARGET_COPY_OUT_VENDOR)/bin/cnss_diag \
     vendor/nokia/PL2/proprietary/vendor/etc/PL2/ncf/front/ISO640_1280x720.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/PL2/ncf/front/ISO640_1280x720.ncf \
     vendor/nokia/PL2/proprietary/vendor/etc/PL2/ncf/front/ISO640_2048x1536.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/PL2/ncf/front/ISO640_2048x1536.ncf \
     vendor/nokia/PL2/proprietary/vendor/etc/PL2/ncf/front/ISO640_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/PL2/ncf/front/ISO640_2592x1944.ncf \
